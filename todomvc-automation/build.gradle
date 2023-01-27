@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.dukescript.api:junit-browser-runner:1.0'
+    implementation 'org.junit.platform:junit-platform-suite-engine:1.9.2'
+    implementation 'org.junit.platform:junit-platform-runner:1.9.2'
+    implementation 'com.mikemybytes:junit5-formatted-source-parent:0.2.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation group: 'com.microsoft.playwright', name: 'playwright', version: '1.28.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.1'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+task loadInspector(type: JavaExec) {
+    mainClass = 'com.microsoft.playwright.CLI'
+    classpath sourceSets.main.runtimeClasspath
+    if (project.hasProperty('args')) {
+        args project.getProperty('args')
+    } else {
+        args 'open'
+    }
+}
