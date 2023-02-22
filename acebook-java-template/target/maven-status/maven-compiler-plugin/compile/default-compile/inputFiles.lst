@@ -1,0 +1,11 @@
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/repository/UserRepository.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/controller/UsersController.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/model/User.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/SecurityConfiguration.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/controller/PostsController.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/model/Authority.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/Application.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/controller/HomeController.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/repository/PostRepository.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/model/Post.java
+/Users/joaofernandes/Documents/my_java_code/acebook-java-template/src/main/java/com/makersacademy/acebook/repository/AuthoritiesRepository.java
